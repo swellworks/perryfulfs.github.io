@@ -1,0 +1,262 @@
+/*
+-----------------------------------------------
+Author:   Perry Fulfs
+Date:     01/26/2021
+
+https://www.modularscale.com/?1.25&em&1.5
+16px @ 1:1.25
+190px @ 1:1.25
+61.035px-3.815em
+48.828px-3.052em
+39.063px-2.441em
+31.25px-1.953em
+25px-1.563em
+20px-1.25em
+
+font-family: 'Poppins', sans-serif;
+400/500/600
+
+ltblue: 63cbe3
+dkblue: 27636e
+-----------------------------------------------
+*/
+
+body {
+  background-color: #ededed;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+  }
+  h1, h2, h3 {
+    color: #333;
+    font-family: 'Poppins', Verdana, Arial, sans-serif;
+  }
+  h1 {
+    font-size: 3.052em;
+    font-weight: 600;
+    margin: 0 0 .2em 0;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 1.953em;
+    font-weight: 500;
+    margin: 0 0 .2em 0;
+  }
+  h3 {
+    font-size: 1.563em;
+    font-weight: 400;
+    margin: 0 0 .1em 0;
+  }
+  
+  nav a:link {
+    color: #63cbe3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+  nav a:visited {
+    color: #63cbe3;
+    font-family: 'Poppins', sans-serif;
+  }
+  nav a:hover {
+    color: #f0b350;
+    font-family: 'Poppins', sans-serif;
+  }
+  nav a:active {
+    color: #63cbe3;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  a:link {
+    color: #e36342;
+  }
+  a:visited {
+    color: #e36342;
+  }
+  a:hover {
+    color: #c44330;
+  }
+  a:active {
+    color: #63cbe3;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  ol li {
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .hero-area {
+    background-color: #999;
+    min-height: 600px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #container {
+    margin: 0;
+  }
+  
+  /* -- Flexbox -- */
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #63cbe3;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  .flex-topper {
+    margin: 20px 0 0 0;
+  }
+  
+  /* -- images -- */
+  
+  .flex-img-left-1 {
+    border: 2px solid #e36342;
+    border-radius: 5px;
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 225px;
+  }
+  .flex-img-right-2 {
+    border: 2px solid #e36342;
+    border-radius: 5px;
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 225px;
+  } 
+  
+  /* -- gallery -- */
+  
+  .gallery-cont {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 1rem;
+  }
+  .responsive-image {
+    max-width: 100%;
+  }
+  @media screen and (min-width: 600px) {
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  .cell {
+      width: 50%;
+  }
+  }
+  @media screen and (min-width: 1000px) {
+    .cell {
+      width: calc(100% / 4);
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .cell {
+      width: calc(50% - 1rem);
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .cell {
+      width: calc(25% - 1rem);
+    }
+  }
+  
+  /* -- resp images -- */
+  .res-img{
+    width: 100%;
+    height: auto;
+  }
+  
+  /* -- resp images TEST -- */
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* -- footer -- */
+  .foot-area {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #27636e;
+    color: #fff;
+    margin: -20px 0 0 0;
+    padding: 10px;
+    z-index: 1;
+  }
+  
