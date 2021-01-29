@@ -16,8 +16,17 @@ https://www.modularscale.com/?1.25&em&1.5
 font-family: 'Poppins', sans-serif;
 400/500/600
 
-ltblue: 63cbe3
-dkblue: 27636e
+Red
+#F83839
+
+Puce
+#513B41
+
+Aqua
+#7FE5F0
+
+Tiffany Blue
+#C8F4F9
 -----------------------------------------------
 */
 
@@ -31,12 +40,12 @@ body {
     font-weight: 400;
     line-height: 1.4em;
   }
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     color: #333;
     font-family: 'Poppins', Verdana, Arial, sans-serif;
   }
   h1 {
-    font-size: 3.052em;
+    font-size: 4.052em;
     font-weight: 600;
     margin: 0 0 .2em 0;
     text-transform: uppercase;
@@ -51,18 +60,23 @@ body {
     font-weight: 400;
     margin: 0 0 .1em 0;
   }
-  
+  h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 0 0 .1em 0;
+    text-decoration: underline 2px solid #F83839;
+  }
   nav a:link {
-    color: #63cbe3;
+    color: #7FE5F0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
   nav a:visited {
-    color: #63cbe3;
+    color: #7FE5F0;
     font-family: 'Poppins', sans-serif;
   }
   nav a:hover {
-    color: #f0b350;
+    color: #C8F4F9;
     font-family: 'Poppins', sans-serif;
   }
   nav a:active {
@@ -71,10 +85,10 @@ body {
   }
   
   a:link {
-    color: #e36342;
+    color: #7FE5F0;
   }
   a:visited {
-    color: #e36342;
+    color: #7FE5F0;
   }
   a:hover {
     color: #c44330;
@@ -82,7 +96,19 @@ body {
   a:active {
     color: #63cbe3;
   }
-  
+
+  /* other color choices */
+
+  .whiteColor {
+    color: #fff;
+  }
+  .midGrayColor {
+    color: #4a4a4a;
+  }
+  .dkGrayColor {
+    color: #333;
+  }
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -117,15 +143,24 @@ body {
   }
 
   .hero-area {
-    background-color: #999;
-    min-height: 600px;
+    background-color: ;
+    color: #fff;
+    min-height: 55em;
+    padding: 60px 0 0 0;
     position: relative;
     width: 100%;
     overflow: hidden;
+    background: #513B41 url("images/website-perry.jpg") no-repeat bottom right;
   }
 
   #container {
     margin: 0;
+  }
+
+  .content-container {
+    max-width: 75em;
+    margin-right: auto!important;
+    margin-left: auto!important;
   }
   
   /* -- Flexbox -- */
@@ -253,10 +288,10 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #27636e;
+    background-color: #4a4a4a;
     color: #fff;
-    margin: -20px 0 0 0;
-    padding: 10px;
+    margin: 20px 0 0 0;
+    padding: 20px 40px;
     z-index: 1;
   }
   
