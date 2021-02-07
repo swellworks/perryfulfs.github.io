@@ -143,25 +143,41 @@ body {
   }
 
   .hero-area {
-    background-color: ;
     color: #fff;
-    min-height: 50em;
+    height: 100vh;
     padding: 60px 0 0 0;
     position: relative;
     width: 100%;
     overflow: hidden;
-    background: #513B41 url("images/website-perry.jpg") no-repeat bottom right;
+    background: #513B41;
   }
+
+  @media screen and (max-width: 320px) {
+    .perry-photo-hide img { 
+      display: none; }
+}
 
   #container {
     margin: 0;
   }
 
   .content-container {
-    max-width: 75em;
+    max-width: 95em;
     margin-right: auto!important;
     margin-left: auto!important;
+    padding: 0 20px;
   }
+
+  .half-screen {
+    float:left; 
+    width:100%;
+    width:49.99999%
+  }
+
+  .clearBoth {
+    clear:both;
+  }
+
   
   /* -- Flexbox -- */
   
@@ -206,7 +222,7 @@ body {
   
   .gallery-cont {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 85em;
     padding: 0 1rem;
   }
   .responsive-image {

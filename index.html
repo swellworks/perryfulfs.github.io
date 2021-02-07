@@ -14,6 +14,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel='icon' href='pf-icon.ico' type='image/x-icon'>
+
+      <!-- credit given for the image gallery - https://fotorama.io/  -->
+      <!-- jQuery 1.8 or later, 33 KB -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <!-- Fotorama from CDNJS, 19 KB -->
+      <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
 </head>
 
 <body>
@@ -27,31 +35,40 @@
   </nav>
   <div id="container" class="hero-area">
     <div class="content-container">
-      <h2 class="whiteColor">Hello, my name is</h2>
-      <h1 class="whiteColor">PERRY FULFS</h1>
-      <h3 class="whiteColor">UI/UX | CODE | DESIGN</h3>
+        <div class="half-screen">
+        <h2 class="whiteColor">Hello, my name is</h2>
+        <h1 class="whiteColor">PERRY FULFS</h1>
+        <h3 class="whiteColor">UI/UX | CODE | DESIGN</h3>
+        <p>I grew up in the Midwest.</p>
+        <p>I lived in Seattle.</p>
+        <p>I moved back to the Midwest.</p>
+        <p>I have a more detailed <a href="#resume">résumé</a> if you're into that type of reference.</p>
+        <p>I've worked tons of different types of tech/computer jobs.</p>
+        <p>Such as: desktop jocky, graphic designer, production manager, <br>ui/ux designer, entry front-end-devloper, & unicorn.</p>
+        <p>I am really into riding motorcycles & playing music.</p>
+        <p>I am now just a middle-aged guy trying to live his best life ever under the circumstances.</p>
+        <h3 class="whiteColor">Links to my GitHub projects:</h3>
+        <p><a href="https://swellworks.github.io/bioSite/organism-level.html" target="_blank">BioSite</a></p>
+        <p><a href="https://github.com/swellworks/web-231" target="_blank">Web 231 Repository</a></p>
+        <p><a href="https://github.com/swellworks/web-330" target="_blank">Web 330 Repository</a></p>
+        </div>
+        <div class="half-screen">
+          <img src="images/website-perry.jpg" class="perry-photo-hide" alt="Perry Photo">
+        </div>
+  </div>
 
-      <p>I grew up in the Midwest.</p>
-
-      <p>I lived in Seattle.</p>
-
-      <p>I moved back to the Midwest.</p>
-        
-      <p>I have a more detailed <a href="#resume">résumé</a> if you're into that type of reference.</p>
-        
-      <p>I've worked tons of different types of tech/computer jobs.</p>
-      
-      <p>Such as: desktop jocky, graphic designer, production manager, ui/ux designer, entry front-end-devloper, & unicorn.</p>
-      
-      <p>I am really into riding motorcycles & playing music.</p>
-      
-      <p>I am now just a middle-aged guy trying to live his best life ever under the circumstances.</p>
-      
-      <h3 class="whiteColor">Links to my GitHub projects:</h3>
-      <p><a href="https://swellworks.github.io/bioSite/organism-level.html" target="_blank">BioSite</a></p>
-      <p><a href="https://github.com/swellworks/web-231" target="_blank">Web 231 Repository</a></p>
-      <p><a href="https://github.com/swellworks/web-330" target="_blank">Web 330 Repository</a></p>
-
+  <div class="content-container clearBoth">
+    <h3 class="whiteColor">Gallery</h3>
+    <div class="fotorama">
+      <div>
+        <a href="https://swellworks.github.io/bioSite/organism-level.html" target="_blank">
+        <img src="images/gallery-bioSite.jpg"></a>
+        </div>
+      <img src="images/no-photo.jpg">
+      <div><a href="https://github.com/swellworks/web-231" target="_blank"><img src="images/gallery-web231.jpg"></a></div>
+      <div><a href="https://github.com/swellworks/web-330/blob/main/week-5/fulfs-assignment-2.4.pdf" target="_blank"><img src="images/gallery-personal-330.jpg"></a></div>
+      <div><a href="https://github.com/swellworks/web-330" target="_blank"><img src="images/gallery-web330.jpg"></a></div>
+    </div>
   </div>
   </div>
 
@@ -127,9 +144,7 @@
   <div class="content-container">
     <h2 id="contact">CONTACT</h2>
     <h3>This area is for a contact form.</h3>
-
-    <p>Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
-    <br><br><br><br>
+   <br><br><br><br>
   </div>
 
   <footer class="foot-area">All rights & whatnot reserved - table for one. I'll make you stick to the bottom... someday.</footer>
