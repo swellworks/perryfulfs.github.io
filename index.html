@@ -14,14 +14,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel='icon' href='pf-icon.ico' type='image/x-icon'>
-
-      <!-- credit given for the image gallery - https://fotorama.io/  -->
-      <!-- jQuery 1.8 or later, 33 KB -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <!-- Fotorama from CDNJS, 19 KB -->
-      <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-
 </head>
 
 <body>
@@ -56,17 +48,67 @@
           <img src="images/website-perry.jpg" class="perry-photo-hide" alt="Perry Photo">
         </div>
   </div>
-
+<br /><br />
+  <!-- helper code provided by https://codepen.io/mhrkit -->
   <div class="content-container clearBoth">
-    <h3 class="whiteColor">Gallery</h3>
-    <div class="fotorama">
-      <div><a href="https://swellworks.github.io/bioSite/organism-level.html" target="_blank"><img src="images/gallery-bioSite.jpg"></a></div>
-      <img src="images/gallery-no-photo.jpg">
-      <div><a href="https://github.com/swellworks/web-231" target="_blank"><img src="images/gallery-web231.jpg"></a></div>
-      <div><a href="https://github.com/swellworks/web-330/blob/main/week-5/fulfs-assignment-2.4.pdf" target="_blank"><img src="images/gallery-personal-330.jpg"></a></div>
-      <div><a href="https://github.com/swellworks/web-330" target="_blank"><img src="images/gallery-web330.jpg"></a></div>
+    <div class="main">
+      <h3 class="whiteColor">Course Work Gallery & Links</h>
+      <ul class="cards" style="background-color: transparent;">
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="images/gallery-bioSite.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title">BioSite</h2>
+              <p class="card_text">Gallery image and link to your bioSite (WEB 200)</p>
+              <a href="https://swellworks.github.io/bioSite/organism-level.html" target="_blank" class="card-ul card-li"><button class="btn card_btn">BioSite Link</button></a>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="images/gallery-no-photo.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title">BioSite Wireframe</h2>
+              <p class="card_text"><br>Unfortunately, cannot find this file in my repository or as a local file!<br></p>
+              
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="images/gallery-web231.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title">231’s Repository</h2>
+              <p class="card_text">Gallery image and link to web-230/231’s repository</p>
+              <a href="https://github.com/swellworks/web-231" target="_blank" class="card-ul"><button class="btn card_btn">231 Link</button></a>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="images/gallery-personal-330.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title">Wireframe Proto</h2>
+              <p class="card_text">Gallery image and link to your personal prototype</p>
+              <a href="https://github.com/swellworks/web-330/blob/main/week-5/fulfs-assignment-2.4.pdf" target="_blank" class="card-ul"><button class="btn card_btn">Proto Link</button></a>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="images/gallery-web330.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title">330’s Repository</h2>
+              <p class="card_text">Gallery image and link to web-330’s repository</p>
+              <a href="https://github.com/swellworks/web-330" target="_blank" class="card-ul"><button class="btn card_btn">330 Link</button></a>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
+
   </div>
+
   </div>
 
   <div class="content-container"><br><br>
@@ -94,19 +136,13 @@
               <img src="images/GD/gd-lg-map-brycepark.jpg" alt="map">
               <img src="images/CS/cs-entry-layout.jpg" alt="entry layout">
             </div>
-
           </div>
         </div>
       </div>
 
-      <div>
-          <p>&nbsp;</p>
-      </div>
-
     </div>
-
   </div>
-
+  <br><br>
   <div class="content-container">
     <h2 id="resume">RESUMÉ</h2>
 
@@ -140,8 +176,8 @@
 
   <div class="content-container">
     <h2 id="contact">CONTACT</h2>
-    <h3>This area is for a contact form.</h3>
-   <br><br><br><br>
+    <a href="mailto:perry@swellworks.com" style="background-color: lightslategray; padding: 5px;">perry@swellworks.com</a>
+   <br><br><br><br><br><br><br><br>
   </div>
 
   <footer class="foot-area">All rights & whatnot reserved - table for one. I'll make you stick to the bottom... someday.</footer>
