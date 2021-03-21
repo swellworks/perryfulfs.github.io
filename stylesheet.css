@@ -176,6 +176,20 @@ body {
     background: #513B41;
   }
 
+  .hero-area-sub {
+    color: #fff;
+    height: 100vh;
+    padding: 60px 0 0 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #ededed;
+  }
+
+  .hero-area-sub p {
+    color: #333;
+  }
+
   @media screen and (max-width: 320px) {
     .perry-photo-hide img { 
       display: none; }
