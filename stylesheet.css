@@ -418,6 +418,30 @@ body {
       max-width: 100%;
     }
   }
+
+/* -- NEW GALLERY -- */
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    color: #333;
+    padding: 15px;
+    text-align: center;
+  }
   
   /* -- footer -- */
   .foot-area {
