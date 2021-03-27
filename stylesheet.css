@@ -153,18 +153,22 @@ body {
   li a:hover {
     background-color: #111;
   }
+
   
-  ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  ol li {
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+.secondary-list {
+  color:rgba(255, 255, 255, 0.2)
+}
+
+.secondary-list a {
+  color: #513B41;
+}
+
+.secondary-list a:hover {
+  color: #63cbe3;
+}
+
+
+
 
   .hero-area {
     color: #fff;
